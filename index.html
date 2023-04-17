@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button id="request">Request</button>
+
+  <button id="clear-cache">Clear Cache</button>
+
+  <input type="number" id="revalidate" value="60" />
+
+  <div style="margin-top: 20px;">
+    <input type="date" id="date-start">
+    <input type="date" id="date-end">
+  </div>
+
+  <div>
+    <p id="from"></p>
+  </div>
+
+  <div>
+    <p id="request-data"></p>
+  </div>
+
+  <script type="module" src="cache.js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
